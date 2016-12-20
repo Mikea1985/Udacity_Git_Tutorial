@@ -1,0 +1,64 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Removed identical lines, leaving only lines that changed, 
+    making it faster to compare them. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    In order to revert to an earlier version, if I regret any changes I've made.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: Only have version that work. 
+    Cons: Have to remember to do it. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Google Docs is designed for word documents and such, which are less
+    inter-dependant than code files; software often has many files, so git
+    is designed to allow a whole project in a commit. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the history of commits, with commit IDs.
+    git diff shows the difference between two commit IDs. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can experiment without having to worry about how to revert changes.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Making a fork from Wes' github, rebase my own github fork. 
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare.
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy.
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore.
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
+
+Lesson 1
+https://github.com/udacity/asteroids.git
+3884eab839af1e82c44267484cf2945a766081f3
+
+Problem set 1
+https://github.com/udacity/pappu-pakia.git
+fa4c6bade4970c282b3870ad16f1bde8164663a9
+
+
