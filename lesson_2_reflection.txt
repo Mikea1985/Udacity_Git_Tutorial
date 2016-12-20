@@ -12,13 +12,30 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  git status shows which files is already in the staging area. 
+  git diff shows difference between working dir and staging
+  git diff --staging shows diff between staging and repository
+  staging area allows you to have made several changes in working dir, 
+    but commit them separately (if in different files). 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+  Two different versions that don't yet have a convenient toggle. 
+  Experimental features. 
+
 How do the diagrams help you visualize the branch structure?
+
+  Helps to visualise which commits are parts of which branch's history 
+    and which branches might be unreachable. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+  A single branch with all the features and bug fixes of the previous two. 
+  Represented as two merged branches, because merged branch has two histories.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+  Pro: faster
+  Cons: Does not always work. 
