@@ -4,21 +4,29 @@ local?
     When collaborating with others. 
     When working on a project from multiple computers. 
     When you want a non-local backup of your work, in case your computer dies.
+    Very large projects that cannot entirely be stored locally.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    I'm really not sure...
+    Maybe so that I know a change has happened and am not surprised by
+      bugs appearing "out of nowhere"?
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks and clones are the same, except forks are only on GitHub and keep
+      a record of the original repository that this was cloned/forked from. 
+    Braches are similar to forks, but within a single repository, allowing 
+      multiple different pathes of feature development in the same repository, 
+      whereas forking creates a new independent repository, which only gives a 
+      hat tip to its origin. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
