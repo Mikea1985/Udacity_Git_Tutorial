@@ -26,14 +26,19 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    
+    Allows you to work offline while still knowing what is on the remote. 
+    Allows you to sort out merge conflicts locally before updating remote. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    E-mailing files back and forth, or by using a shared dropbox folder. 
+    Almost everything would be harder. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Use branches when working on something experimental or something that 
+      might not need to ever be in the main code, or when you have 
+      collaborators who work together (nobody works directly on master). 
+    Working directly on master is more convenient for small edits. 
